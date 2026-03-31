@@ -150,3 +150,45 @@ spotify-powerbi-dashboard/
         ├── Background.png
         └── Icons/
 ```
+
+---
+
+## 💡 Key Insights
+
+### 🎤 Artist Dominance
+- **Taylor Swift** leads the chart with **85 song entries** — more than double any other artist, showing unmatched consistency on the Global Top 50
+- A small group of **5–6 artists** account for the majority of chart appearances, revealing how concentrated streaming success really is
+
+### 🔥 Popularity Trends
+- The **average popularity score sits at 90**, meaning the Top 50 is extremely competitive — only the most-streamed tracks globally make it in
+- Popularity dips slightly mid-year (June–August) and **peaks around September–November**, suggesting end-of-year releases drive major engagement
+
+### 🎵 Singles vs Albums
+- **Singles dominate** the chart — the majority of Top 50 entries come from single releases rather than full albums, confirming that artists strategically drop standalone tracks for maximum chart impact
+- Albums that do chart tend to have higher total track counts, suggesting fan deep-dives into full projects
+
+### 🤬 Explicit vs Clean
+- Explicit songs make up a significant portion of the chart (**~11K explicit vs 17K non-explicit**), showing mainstream audiences are comfortable with explicit content
+- Interestingly, **non-explicit songs maintain a comparable popularity score**, meaning clean tracks are just as competitive on the charts
+
+### 📅 Year-over-Year
+- **2024 slightly outpaces 2023** in song entries (452 vs 423), suggesting the pace of chart turnover is accelerating — songs are rising and falling faster
+- Duration has stayed relatively stable year-over-year, hovering around **3.2–3.3 minutes** — short, punchy tracks remain the format of choice
+
+### 🏆 Position #1
+- Reaching **position #1** is rare and concentrated among very few artists, with most artists appearing across positions 2–50
+- The artists with the most #1 hits also tend to have the highest average popularity scores overall
+
+---
+
+## 📝 Conclusion
+
+This dashboard demonstrates how raw streaming data can be transformed into a compelling, story-driven analytics experience. By combining **30+ custom DAX measures** with a **Spotify-inspired UI built in Figma**, the project goes beyond standard reporting to deliver something that feels like a real product.
+
+The data tells a clear story: the Global Top 50 is dominated by a handful of powerhouse artists, singles are the weapon of choice for chart success, and audience engagement peaks toward the end of the year. These are the kinds of insights that labels, artists, and marketers can act on.
+
+From a technical standpoint, this project showcases end-to-end Power BI development — from raw CSV ingestion and data modeling to advanced DAX, dynamic filtering, image-based slicers, and polished visual design. Every element was intentionally built to balance aesthetics with analytical depth.
+
+> *"Good data visualization doesn't just show numbers — it tells the story behind them."*
+
+---
