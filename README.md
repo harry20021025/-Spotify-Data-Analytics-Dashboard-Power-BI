@@ -7,7 +7,7 @@
 
 ## 📸 Dashboard Preview
 
-![Dashboard](assets/dashboard_overview.png)
+![Dashboard](asset/dashboard_overview.png)
 
 ---
 
@@ -18,10 +18,8 @@ This project analyzes the **Spotify Global Top 50** chart data and presents it a
 **Highlights:**
 - 🎧 Spotify-style music player card with dynamic album artwork
 - 📊 30+ custom DAX measures across songs, artists, albums & time
-- 🎨 Dark glass-effect UI with Spotify green accents, designed in Figma
 - 🔀 Month / Quarter toggle for trend analysis
 - 🖼️ Album art that updates dynamically on song selection
-- 🧭 4-tab navigation: Home · Overview · Artists · Songs
 
 ---
 
@@ -125,8 +123,6 @@ Designed in **Figma** → exported as PNG → imported into Power BI as wallpape
 |---|---|
 | Power BI Desktop | Dashboard & data modeling |
 | DAX | 30+ custom measures & columns |
-| Figma | UI design & glass-effect backgrounds |
-| Spotify API | Data source & album artwork |
 
 ---
 
@@ -135,7 +131,7 @@ Designed in **Figma** → exported as PNG → imported into Power BI as wallpape
 1. Clone the repo
 2. Open `Spotify_Dashboard.pbix` in Power BI Desktop
 3. `Home → Transform Data → Data Source Settings` → point to your local CSV
-4. `Format Page → Wallpaper → Image` → select `assets/backgrounds/dark_glass_bg.png`
+4. `Format Page → Wallpaper → Image` → select `assets/backgrounds/Background.png`
 
 ---
 
@@ -147,9 +143,9 @@ spotify-powerbi-dashboard/
 │   └── top-50-world.csv
 ├── dax/
 │   └── measures.dax
-├── assets/
+├── asset/
 │   ├── backgrounds/
-│   │   └── dark_glass_bg.png
+│   │   └── Background.png
 │   └── dashboard_overview.png
 └── README.md
 ```
