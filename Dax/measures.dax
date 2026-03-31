@@ -1,0 +1,95 @@
+// ============================================================
+// SPOTIFY DASHBOARD — DAX MEASURES
+// Table: Top-50-world
+// ============================================================
+
+Total Songs = 
+COUNTROWS('Top-50-world')
+
+Distinct Songs = 
+DISTINCTCOUNT('Top-50-world'[song])
+
+Distinct Artists = 
+DISTINCTCOUNT('Top-50-world'[artist])
+
+Avg Popularity = 
+AVERAGE('Top-50-world'[popularity])
+
+Max Popularity = 
+MAX('Top-50-world'[popularity])
+
+Min Popularity = 
+MIN('Top-50-world'[popularity])
+
+Avg Duration Minutes = 
+AVERAGE('Top-50-world'[duration_ms]) / 60000
+
+Max Duration Minutes = 
+MAX('Top-50-world'[duration_ms]) / 60000
+
+Min Duration Minutes = 
+MIN('Top-50-world'[duration_ms]) / 60000
+
+Explicit Songs = 
+CALCULATE(COUNTROWS('Top-50-world'), 'Top-50-world'[is_explicit] = TRUE())
+
+Non-Explicit Songs = 
+CALCULATE(COUNTROWS('Top-50-world'), 'Top-50-world'[is_explicit] = FALSE())
+
+Pct Explicit Songs = 
+DIVIDE([Explicit Songs], [Total Songs], 0)
+
+Avg Popularity Explicit = 
+CALCULATE(AVERAGE('Top-50-world'[popularity]), 'Top-50-world'[is_explicit] = TRUE())
+
+Avg Popularity NonExplicit = 
+CALCULATE(AVERAGE('Top-50-world'[popularity]), 'Top-50-world'[is_explicit] = FALSE())
+
+Avg Position = 
+AVERAGE('Top-50-world'[position])
+
+Position 1 Songs = 
+CALCULATE(COUNTROWS('Top-50-world'), 'Top-50-world'[position] = 1)
+
+Position 1 Artists = 
+CALCULATE(DISTINCTCOUNT('Top-50-world'[artist]), 'Top-50-world'[position] = 1)
+
+Avg Tracks per Album = 
+AVERAGE('Top-50-world'[total_tracks])
+
+Album Type Count = 
+DISTINCTCOUNT('Top-50-world'[album_type])
+
+Singles Count = 
+CALCULATE(COUNTROWS('Top-50-world'), 'Top-50-world'[album_type] = "single")
+
+Albums Count = 
+CALCULATE(COUNTROWS('Top-50-world'), 'Top-50-world'[album_type] = "album")
+
+Songs per Artist = 
+COUNTROWS('Top-50-world')
+
+Distinct Songs per Artist = 
+DISTINCTCOUNT('Top-50-world'[song])
+
+Avg Popularity per Artist = 
+AVERAGE('Top-50-world'[popularity])
+
+Position1 Hits per Artist = 
+CALCULATE(COUNTROWS('Top-50-world'), 'Top-50-world'[position] = 1)
+
+Songs per Year = 
+COUNTROWS('Top-50-world')
+
+Avg Popularity per Year = 
+AVERAGE('Top-50-world'[popularity])
+
+Avg Duration per Year = 
+AVERAGE('Top-50-world'[duration_ms]) / 60000
+
+Pct Explicit per Year = 
+DIVIDE(
+    CALCULATE(COUNTROWS('Top-50-world'), 'Top-50-world'[is_explicit] = TRUE()),
+    [Songs per Year],
+    0
+)
