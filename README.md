@@ -7,7 +7,7 @@
 
 ## 📸 Dashboard Preview
 
-assets/dashboard_overview.png
+![Dashboard](assets/dashboard_overview.png)
 
 ---
 
@@ -156,13 +156,6 @@ spotify-powerbi-dashboard/
 
 ---
 
-## 📺 Tutorial
-
-👉 [Watch on YouTube](https://youtu.be/MjeDkDHJqzc?si=ZsppKtKSCoeUyG6c)
-
----
-
 ## 📬 Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_PROFILE)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/YOUR_CHANNEL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/YOUR_PROFILE](https://www.linkedin.com/in/hariom-dixit-2b522a27a/))
