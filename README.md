@@ -138,20 +138,21 @@ Designed in **Figma** → exported as PNG → imported into Power BI as wallpape
 ## 📁 Folder Structure
 ```
 spotify-powerbi-dashboard/
-├── Spotify_Dashboard.pbix
+├── Spotify.pbix
+├── README.md
 ├── dataset/
-│   └── top-50-world.csv
-├── dax/
+│   └── spotify-top-50-world.csv
+├── Dax/
 │   └── measures.dax
-├── asset/
-│   ├── backgrounds/
-│   │   └── Background.png
-│   └── dashboard_overview.png
-└── README.md
+└── asset/
+    ├── dashboard_overview.png
+    └── Background and icons/
+        ├── Background.png
+        └── Icons/
 ```
 
 ---
 
 ## 📬 Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/YOUR_PROFILE](https://www.linkedin.com/in/hariom-dixit-2b522a27a/))
+[![LinkedIn](https://www.linkedin.com/in/hariom-dixit-2b522a27a/)
