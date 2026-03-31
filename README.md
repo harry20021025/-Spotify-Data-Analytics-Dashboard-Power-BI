@@ -7,7 +7,7 @@
 
 ## 📸 Dashboard Preview
 
-![Dashboard](assets/dashboard_overview.png)
+assets/dashboard_overview.png
 
 ---
 
