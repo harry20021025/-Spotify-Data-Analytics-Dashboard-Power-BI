@@ -1,5 +1,8 @@
 # 🎵 Spotify Top 50 World — Analytics Dashboard | Power BI
 
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Data Analysis](https://img.shields.io/badge/Data%20Analysis-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
 > A fully interactive Power BI dashboard analyzing the Spotify Global Top 50, built with 30+ custom DAX measures.
 
@@ -192,3 +195,12 @@ From a technical standpoint, this project showcases end-to-end Power BI developm
 > *"Good data visualization doesn't just show numbers — it tells the story behind them."*
 
 ---
+
+## 👨‍💻 Author
+
+**Hariom Dixit**
+📍 Mumbai, India
+
+---
+
+*If this project helped you or gave you ideas, please give it a ⭐ on GitHub — it means a lot!*
