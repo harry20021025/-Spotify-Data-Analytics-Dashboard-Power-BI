@@ -1,7 +1,7 @@
 # 🎵 Spotify Top 50 World — Analytics Dashboard | Power BI
 
 
-> A fully interactive Power BI dashboard analyzing the Spotify Global Top 50, built with 30+ custom DAX measures and a dark glass-effect UI designed in Figma.
+> A fully interactive Power BI dashboard analyzing the Spotify Global Top 50, built with 30+ custom DAX measures.
 
 ---
 
@@ -150,9 +150,3 @@ spotify-powerbi-dashboard/
         ├── Background.png
         └── Icons/
 ```
-
----
-
-## 📬 Connect
-
-[![LinkedIn](https://www.linkedin.com/in/hariom-dixit-2b522a27a/)
